@@ -1,0 +1,18 @@
+let pizzaPlace = "Real Good Pizza";
+let numberOfToppings = (7);
+
+console.log(pizzaPlace, typeof pizzaPlace)
+console.log(numberOfToppings, typeof numberOfToppings);
+console.log('Thanks for coming to ' + `${pizzaPlace}.`);
+
+if (numberOfToppings < 10){
+  console.log("Quality not quantity");
+} else {
+  console.log("A whole lot of pizza");
+}
+
+for (let i = 2; i <=7; i++) {
+  if (i % 2 == 0){
+    console.log(i);
+  }
+}
